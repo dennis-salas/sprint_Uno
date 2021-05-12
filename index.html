@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <title>almacendecomputadoras</title>
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <div id="logo">
+                <img src=".//images/logo.jpg">
+                <h1>COMPUMARKET</h1>
+            </div>
+            <nav>
+                <a href="./inicio.html" class="link">Inicio</a>
+                <a href="#" class="link">Conócenos</a>
+                <a href="#" class="link">Contactanos</a>
+            </nav>
+        </header>
+        <div id="container-1">
+            <h1>Almacén de computadoras</h1><br>
+            <div id="caja-1">
+                <div id="uno">
+                    <label>Cantidad de computadores comprados :</label><br>
+                    <input id="cantidad"><br>
+                </div>
+                <button id="boton" onclick="Calcular()">Calcular</button><br>
+            </div>
+        </div>
+        <main>
+            <div id="container-2">
+                <div id="caja-2">
+                    <div id="encabezado">
+                        <h1>Orden de compra</h1>
+                        <img src="./images/logo.jpg">
+                    </div>
+                    <div>
+                        <label class="margen">Valor de compra</label><br>
+                        <input id="valorcompra" class="margen"><br>
+                        <label class="margen">Valor de descuento</label><br>
+                        <input id="valordescuento" class="margen"><br>
+                        <label class="margen">Total</label><br>
+                        <input id="total"class="margen"><br>
+                        <p id="text" class="margen"></p>
+                    </div>
+                </div>
+            </div>   
+        </main>
+        <footer>
+            <div class="inf">
+                <a href="#">Ubicación</a>
+                <a href="#">Telefonos</a>
+                <a href="#">Email</a>
+            </div>
+            <div class="redes">
+                <a href="#">Facebook</a>
+                <a href="#">Twiter</a>
+                <a href="#">Instagran</a>
+            </div>
+        </footer>      
+    </div>
+    <script src="./script/script.js"></script>    
+</body>
+</html>
